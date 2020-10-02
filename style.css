@@ -1,0 +1,142 @@
+header {
+    margin: auto;
+    text-align: center;
+    color: #E8EDDF;
+    font-size: 40px;
+    padding: 0.5em;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #333533;
+}
+
+#display {
+    background-color: #F5CB5C;
+    grid-area: display;
+    font-size: 62px;
+    border-radius: 2px;
+    text-align: right;    
+}
+
+button {
+    border-radius: 2px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 55px;
+    text-align: center;
+    border: solid;
+    border-width: 0px;
+    padding: auto;
+}
+
+.modifier {
+    background-color: #D0FEF5;
+}
+
+.number {
+    background-color: #333533;
+    color: #D0FEF5;
+}
+
+.operator {
+    background-color: #FF785A;
+}
+
+#AC {
+    grid-area: AC;   
+}
+
+#plusminus {
+    grid-area: plusminus;
+}
+
+#percent {
+    grid-area: percent;
+}
+
+#divide {
+    grid-area: divide;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#nine {
+    grid-area: nine;
+}
+
+#multiply {
+    grid-area: multiply;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#subtract {
+    grid-area: subtract;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#add {
+    grid-area: add;
+}
+
+#zero {
+    grid-area: zero;
+}
+
+#decimal {
+    grid-area: decimal;
+}
+
+#equals {
+    grid-area: equals;
+    background-color: #FF785A
+}
+
+#container {
+    background-color: #242423;
+    display: grid;
+    margin: auto;
+    width: 350px;
+    height: 475px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #242423;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas: 
+        "display display display display"
+        "AC plusminus percent divide"
+        "seven eight nine multiply"
+        "four five six subtract"
+        "one two three add"
+        "zero zero decimal equals"
+}
